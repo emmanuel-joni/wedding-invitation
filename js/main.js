@@ -197,7 +197,7 @@ function createConfetti() {
   }
 }
 
-const targetDate = new Date('2026-10-05T10:30:00+05:30');
+const targetDate = new Date('2026-10-20T18:00:00+05:30');
 function updateCountdown() {
   const now = new Date();
   const diff = targetDate - now;
@@ -259,6 +259,7 @@ document.querySelectorAll('.rsvp-form input, .rsvp-form textarea, .rsvp-form sel
   // Initial check in case of browser autofill on load
   setTimeout(checkFilled, 100);
 });
+
 
 
 
